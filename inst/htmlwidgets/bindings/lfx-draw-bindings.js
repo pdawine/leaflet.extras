@@ -6,7 +6,7 @@ LeafletWidget.methods.addDrawToolbar = function(targetLayerId, targetGroup, opti
     var map = this;
 
     if(map.drawToolbar) {
-      map.drawToolbar.removeFrom(map);
+      map.drawToolbar.remove(map);
       delete map.drawToolbar;
     }
 
