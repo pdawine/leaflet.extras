@@ -7,7 +7,7 @@ LeafletWidget.methods.addDrawToolbar = function(targetLayerId, targetGroup, opti
 
     if(map.drawToolbar) {
       map.drawToolbar.removeFrom(map);
-      delete map.drawToobar;
+      delete map.drawToolbar;
     }
 
     // FeatureGroup that will hold our drawn shapes/markers
